@@ -1,0 +1,17 @@
+alembic==1.12
+fastapi==0.103
+fastapi_filter==0.6
+pydantic==1.10
+pyodbc==4.0.39
+httpx==0.24
+pytest==7.4
+pytest-cov==4.1
+pytest-html==4.0
+pytest-order==1.1
+pytest-reportlog==0.4
+python-multipart==0.0.6
+PyYAML==6.0
+requests==2.31
+SQLAlchemy==2.0
+sqlalchemy-utils==0.41
+uvicorn==0.23
