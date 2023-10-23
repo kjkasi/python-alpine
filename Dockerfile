@@ -10,7 +10,7 @@ ENV PYTHONUNBUFFERED=1
 COPY requirements.txt .
 
 RUN set -ex \
-&& apk add unixodbc-dev g++ curl gpg gpg-agent sudo \
+&& apk add unixodbc-dev g++ curl gpg gpg-agent sudo libssl1.1 \
 \
 && python -m pip install -r requirements.txt \
 && python -m pip install --disable-pip-version-check debugpy -t /tmp \
